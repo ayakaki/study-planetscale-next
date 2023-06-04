@@ -1,0 +1,25 @@
+generator client {
+  provider = "prisma-client-js"
+
+  // 以下の一文を追加
+    previewFeatures = ["referentialIntegrity"]
+}
+
+datasource db {
+  // provider に mysql を指定
+  provider = "mysql"
+
+  url      = env("DATABASE_URL")
+
+  // 以下の一文を追加
+  referentialIntegrity = "prisma"
+}
+
+model Inquiry {
+  id Int @default(autoincrement()) @id
+  name String
+  email String
+  subject String
+  message String
+  hoge String
+}
