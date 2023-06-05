@@ -1,15 +1,11 @@
-# my-next-template-approuter
+# study-planetscale-next
 
-App Router の Next.js アプリケーションを立ち上げる際のテンプレートプロジェクト
+Next.js を用いて、PlanetScale に接続する方法を学習した。
 
-## FEATURE
+## VIEW
 
-仮置きで下記のパッケージを使用。
+<img width="481" alt="db" src="https://github.com/ayakaki/study-planetscale-next/assets/65984887/b915eb1f-5ca2-4c17-b23f-7741fef10a15">
 
-- 状態管理ライブラリ：jotai
-- テスティングフレームワーク：Jest
-- CSS フレームワーク：Tailwind CSS
+## REFERENCE
 
-## 🚧 TODO
-
-- Storybook
+- [Next.js で PlanetScale を使ってみた](https://dev.classmethod.jp/articles/nextjs-planetscale-tutorial/)
